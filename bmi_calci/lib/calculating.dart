@@ -38,7 +38,7 @@ class _CalculatorState extends State<Calculator> {
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            colors: [const Color.fromARGB(255, 25, 116, 190), Colors.white],
+            colors: [const Color.fromARGB(255, 25, 1, 190), Colors.white],
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
           ),
