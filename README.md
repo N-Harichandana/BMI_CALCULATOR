@@ -11,30 +11,24 @@ This Flutter app allows users to calculate their Body Mass Index (BMI) based on 
 
 
 ## Run Locally
+### Steps to run the Mobile Application
 
-Clone the project
-
-```bash
-  git clone https://github.com/N-Harichandana/BMI_CALCULATOR.git
+1. Run the following command in your desired folder
+```sh
+      flutter create appname-in-lowercase
 ```
-
-Go to the project directory
-
-```bash
-  cd my-project
+2. Replace the common files provided in  ["BMI_CALCULATOR"](https://github.com/N-Harichandana/BMI_CALCULATOR)  with those present in the created folder. You have to add the folder name "images" to your folder.
+3. Add the dependencies:
+```sh
+      flutter pub get
 ```
-
-Install dependencies
-
-```bash
-  flutter pub get
+4. Connect your mobile device to your created folder
+5. Run the code by anyone of the following ways:
+    - Run -> Run Without Debugging (or just Cntrl+F5)
+    - In your terminal, under the created folder, run the following and choose your connected device. 
+```sh
+      flutter run
 ```
-Run the project
-
-```bash
-  flutter run
-```
-
 
 ## Demo
 
